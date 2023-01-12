@@ -837,6 +837,9 @@ align-items: center;
 .position-name input:focus ~ .modalsvg {
     fill: #404BBF;
 }
+.textarea-field {
+    margin-bottom: 16px;
+}
 .textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -860,7 +863,7 @@ align-items: center;
     line-height: calc(16 / 12);
     letter-spacing: 0.04em;
     margin-left: 8px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
 .checkbox {
     appearance: none;
@@ -872,7 +875,7 @@ align-items: center;
     height: 16px;
     border: 1.25px solid black;
     border-radius: 2px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
 .checkbox:checked+.icon-checkbox{
     background-color: #404BBF;
@@ -884,6 +887,7 @@ align-items: center;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 24px;
 } 
 .button-modal {
 padding: 16px 32px 16px 32px;
@@ -895,7 +899,7 @@ padding: 16px 32px 16px 32px;
     line-height: calc(24 / 16);
     letter-spacing: 0.04em;
     border: none;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     min-width: 169px;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
@@ -908,7 +912,7 @@ padding: 16px 32px 16px 32px;
 .button-modal:hover {
 background-color: #404BBF;
 }
-.modal-btn:hover {
+.modal-btn:hover, .modal-btn:focus {
     background-color: #404BBF;
     fill: #FFFFFF;
     border: 1px solid #404BBF

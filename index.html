@@ -269,6 +269,9 @@
 
     <div data-modal class="backdrop is-hidden">
         <div class="modal">
+         <button data-modal-close class="modal-btn" type="button">
+        <svg height="24" width="24" ><use href="./img/modal.svg#icon-close"></use>
+                                    </svg></button>
     <div class="modal-form">
        <form>
        
@@ -300,7 +303,7 @@
                     </svg>
                 </div></div>
 
-        <div class="form-field">
+        <div class="form-field textarea-field">
             <label for="coment">Comment</label>
             <textarea class="textarea" name="coment" id="coment" cols="30" rows="10" placeholder="Text input"></textarea>
         </div>
@@ -316,10 +319,7 @@
             </div>
         </form>
     </div>
-                    <button data-modal-close class="modal-btn" type="button">
-                        <svg>
-                            <use href="./img/modal.svg#icon-close"></use>
-                        </svg></button>
+
                 </div>
             </div>
 <script src="./js/modal.js"></script>
